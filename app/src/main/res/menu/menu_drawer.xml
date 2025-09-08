@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:title="Home (Gallery)"
+            android:icon="@android:drawable/ic_menu_view" />
+
+        <item
+            android:id="@+id/drawer_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person" />
+        <item
+            android:id="@+id/drawer_messages"
+            android:title="Messages"
+            android:icon="@drawable/ic_message" />
+        <item
+            android:id="@+id/drawer_calendar"
+            android:title="Calendar"
+            android:icon="@drawable/ic_calendar" />
+        <item
+            android:id="@+id/drawer_bookmark"
+            android:title="Bookmark"
+            android:icon="@drawable/ic_bookmark" />
+        <item
+            android:id="@+id/drawer_contact"
+            android:title="Contact Us"
+            android:icon="@drawable/ic_contact" />
+        <item
+            android:id="@+id/drawer_settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings" />
+        <item
+            android:id="@+id/drawer_logout"
+            android:title="Sign Out"
+            android:icon="@drawable/ic_logout" />
+    </group>
+
+</menu>
